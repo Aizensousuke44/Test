@@ -5,4 +5,4 @@ def reverse(text):
         rev += text[count - 1]
         count -= 1
     return rev
-    
+   
