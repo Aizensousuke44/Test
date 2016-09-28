@@ -5,7 +5,7 @@ def is_prime(num):
         for n in range(2,num):
             if num % n == 0:
                 flag += 1
-        if a:            
+        if flag > 1:            
             return False
         else:          
             return True
